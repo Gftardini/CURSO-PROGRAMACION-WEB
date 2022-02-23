@@ -1,0 +1,17 @@
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: brown;
+}
+p{
+    text-shadow: 3px 4px 8px rgba(0,4,228,0.47);
+  text-align: center;
+  color: red;
+}
+/*lo que sigue es clases*/
+.destacados{
+color: blue;
+font-weight: bold;
+
+
+}
