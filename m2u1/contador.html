@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contador.css">
+</head>
+<body>
+
+    <h1> CONTADOR DE CARACTERES</h1>
+
+<script >
+	function contarcaracteres(){
+	
+               var total=Infinity;
+
+		var valor=document.getElementById('contador');
+		var cantidad=valor.value.length;
+		document.getElementById('num').innerHTML = cantidad + ' caracter/es escritos';
+	}
+</script>
+
+<textarea class="cont" id="contador" onpaste="contarcaracteres();" onkeyup="contarcaracteres();"></textarea>
+<div id="num">0 caracter/es</div>
+
+</body>
+</html>
+
