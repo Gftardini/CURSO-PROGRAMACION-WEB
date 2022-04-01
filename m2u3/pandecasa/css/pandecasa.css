@@ -1,6 +1,12 @@
 /* font-family: 'Sansita Swashed', cursive; */
 /*  */
 /*  */
+.navbar-brand{
+
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+   
+}
 
 .container-fluid{
     margin-top: 80px;
@@ -8,12 +14,13 @@
 
 
 footer{
-    background-color: rgb(190, 150, 80);
-    margin-top: 100px;
+    background-color: rgb(167, 167, 167);
+    margin-top: 50px;
 }
 
 h1, h2, h3{
     font-family: 'Sansita Swashed', cursive;
+   
 }
 
 .hero{
@@ -28,6 +35,7 @@ h1, h2, h3{
     margin: 0;
     padding: 0;
     list-style: none;
+    box-shadow: 24px 14px 19px -7px rgba(145,145,145,0.92);
 }
 .especialidades li{
     margin: 4px 0;
@@ -71,6 +79,7 @@ h1, h2, h3{
 .opiniones{
     text-align: center;
     padding: 50px 50px;
+    
 }
 
 .carousel-control-prev-icon,
@@ -102,4 +111,44 @@ content: "\f137";
 .text-center{
     background-color:  #fffad1 ;
     color: rgb(158, 117, 12);
+}
+
+#Historia{
+    margin-top: 50px;
+    background-color: rgb(235, 233, 222);
+   
+}
+
+.card-deck{
+    margin-top: 30px;
+}
+#Nosotros{
+    margin-top: 50px;
+    box-shadow: 10px 10px 26px -2px rgba(145,145,145,0.92);
+
+}
+#id{
+    margin-top: 30px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:60%;
+    position:relative;
+    height:0;
+
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+}
+
+#Encontranos{
+    margin-top: 70px;
+    background-color: rgb(235, 233, 222);
 }
